@@ -1,0 +1,49 @@
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+header > .top-line {
+	height: 38px;
+	background-color: #008000;
+}
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+.link {
+	border: 0;
+	background: none;
+	outline: none;
+	color: white;
+}
+.link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+} 
+header {
+	height: 76px;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+}
+header > .top-line > .container {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 14px;
+}
+header > .top-line > .container > .link {
+	display: block;
+	height: 100%;
+	font-weight: 600;
+	padding: 10px;
+}
+header >.main-menu >.container {
+	background-color: #F5F5DC;
+	height: 83px;
+}
+header > .main-menu >.container >.button {
+	padding: 30px;
+}
+main{
+	padding-top: 75px;
+	
