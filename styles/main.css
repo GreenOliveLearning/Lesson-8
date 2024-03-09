@@ -35,15 +35,45 @@ header > .top-line > .container > .link {
 	display: block;
 	height: 100%;
 	font-weight: 600;
-	padding: 10px;
+	padding: 0px 15px;
 }
 header >.main-menu >.container {
 	background-color: #F5F5DC;
 	height: 83px;
 }
-header > .main-menu >.container >.button {
-	padding: 30px;
+header >.main-menu >.container >.button {
+	margin: 30px;
 }
-main{
-	padding-top: 75px;
-	
+main {
+	padding-top: 130px;
+}
+main >.top-line {
+	display: flex;
+	justify-content: space-between;
+}
+main >.top-line >.filters {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+main >.products {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	gap: 15px;
+}
+main >.products >.item {
+	width: 200px;
+	height: 300px;
+	border: solid 1px black;
+}
+footer{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+	box-sizing: border-box;
+	align-items: flex-start;
+}
+footer >.button {
+	background-color: transparent;
+}
